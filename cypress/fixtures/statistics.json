@@ -1,0 +1,6 @@
+[
+  { "id": "years",    "displayValue": "18+",  "label": "of Industry Experience" },
+  { "id": "products", "displayValue": "11",   "label": "SaaS Products" },
+  { "id": "airports", "displayValue": "100+", "label": "Airports Worldwide" },
+  { "id": "users",    "displayValue": "300k", "label": "Users Worldwide" }
+]
