@@ -20,7 +20,7 @@ describe('Scenario 1 | Section Title - "Our activity in numbers"', () => {
       homePage.activitySectionTitle.should('be.visible').then(($el) => {
         const style = window.getComputedStyle($el[0]);
         expect(parseFloat(style.fontSize), 'font-size').to.be.greaterThan(24);
-        expect(parseFloat(style.fontWeight), 'font-weight').to.be.greaterThan(0);
+        expect(parseFloat(style.fontWeight), 'font-weight').to.be.greaterThan(60);
       });
     });
   });

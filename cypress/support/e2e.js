@@ -1,10 +1,9 @@
 import './commands';
 
-// Prevent Cypress from failing on uncaught exceptions from the application
+// eMag sometimes throws uncaught errors from third-party scripts — ignore them so tests don't fail
 Cypress.on('uncaught:exception', (err) => {
-  // Return false to prevent the error from failing the test
   return false;
 });
 
-// Increase timeout for external sites
+// eMag pages can be slow to load, default 60s wasn't always enough
 Cypress.config('pageLoadTimeout', 120000);
